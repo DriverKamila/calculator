@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/element.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="element body">
+    <form class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend"> Przelicznik walut</legend>
+            <p><strong class="bigText">Wybierz walutę:</strong></p>
+            <label>
+                <select class="js-currency form__field">
+                    <option value="EUR"> Euro</option>
+                    <option value="USD">Dolar</option>
+                    <option value="GBP">Funt Brutyjski</option>
+                </select>
+            </label> </br>
+            <p><strong class="bigText"> Suma PLN do wymiany: </strong></p>
+            <input class="js-amount form__field" min="0.01" type="number" step="any" required placeholder="PLN">
+            <p>
+                <strong class="js-result bigText"></strong>
+            </p>
+            <p>
+                <button class="button" type="reset">Wyczyść</button>
+                <button class="button">Przelicz</button>
+            </p>
+            <p>
+                * Data aktualizacji waluty: 09.06.2023 r.
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

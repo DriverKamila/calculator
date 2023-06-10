@@ -1,0 +1,58 @@
+.html {
+    box-sizing: border-box;
+}
+
+* ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-size: 15px;
+    text-align: center;
+    max-width: 500px;
+    max-height: 1000px;
+    margin: 5% auto;
+}
+
+.form__legend {
+    border: 7px ridge rgb(37, 39, 39);
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(198, 203, 212);
+}
+
+.form__field {
+    border: 5px solid rgb(37, 39, 39);
+    padding: 1%;
+    max-width: 200px;
+    background-color: rgb(198, 203, 212);
+    font-size: 20px;
+    margin: 12px 13px;
+}
+
+.form__field:hover {
+    background-color: rgb(246, 247, 249);
+}
+
+.form__fieldset {
+    border: 10px ridge rgb(165, 170, 170);
+    background:rgba(255, 255, 255, 0.342);
+}
+
+.button {
+    border: 5px groove rgb(37, 39, 39);
+    padding: 1%;
+    width: 130px;
+    background-color: rgb(198, 203, 212);
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: rgb(246, 247, 249);
+}
+
+.bigText {
+    text-transform: unset;
+    font-size: 20px;
+    text-align: center;
+}
