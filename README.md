@@ -1,4 +1,4 @@
-﻿# kalkulator
+﻿# Calculator
 ## Demo
 file:///C:/dev/currency%20calculator/index.html
 ### Description
